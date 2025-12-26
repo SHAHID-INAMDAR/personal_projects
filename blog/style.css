@@ -1,5 +1,29 @@
 .logo{
-    height:20px;
-    width:20px;
+    height:60px;
+    width:60px;
+    background-color: rgb(0, 255, 55);
+    border-radius:29px;
+    margin:20px;
+}
+.header-bar{
     background-color: aqua;
+    display:flex;
+    justify-content:space-between;
+    margin-top:0px;
+}
+
+.heading-list{
+    display:flex;
+    justify-content: center;
+    gap:80px;
+    margin-left:10px;
+    margin-right:80px;
+    align-items: center;
+}
+
+.topic{
+    text-align: center;
+    font-size: 50px;
+    font-weight:800;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
