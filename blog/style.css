@@ -1,3 +1,4 @@
+
 .logo{
     height:60px;
     width:60px;
@@ -5,11 +6,15 @@
     border-radius:29px;
     margin:20px;
 }
+
 .header-bar{
-    background-color: aqua;
+    background-color: rgb(4, 57, 117);
     display:flex;
     justify-content:space-between;
-    margin-top:0px;
+    margin:0px;
+    text-decoration:none;
+    height:100px;
+    align-items: center;
 }
 
 .heading-list{
@@ -19,6 +24,15 @@
     margin-left:10px;
     margin-right:80px;
     align-items: center;
+    color:bisque;
+    list-style-type:none;
+}
+a {
+    color:bisque;
+    text-decoration: none;
+    font-weight: 900;
+    font-size:23px;
+    font-family:'Courier New', Courier, monospace;
 }
 
 .topic{
