@@ -8,13 +8,14 @@
 }
 
 .header-bar{
-    background-color: rgb(4, 57, 117);
+    background:linear-gradient(0.25turn, #5b608f, #4b4e77, #393b65, #2a2b55, #191943);
     display:flex;
     justify-content:space-between;
     margin:0px;
     text-decoration:none;
     height:100px;
     align-items: center;
+    border-radius:12px;
 }
 
 .heading-list{
@@ -40,4 +41,16 @@ a {
     font-size: 50px;
     font-weight:800;
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+.box1{
+    background:radial-gradient(circle, white,rgb(247, 208, 161), rgb(255, 160, 160));
+    padding:10px;
+    border-radius:10px;
+    display:flex;
+    flex-direction: column;
+    max-width:70%;
+}
+.day-headings{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 }
