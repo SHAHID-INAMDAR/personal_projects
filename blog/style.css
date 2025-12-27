@@ -34,6 +34,7 @@ a {
     font-weight: 900;
     font-size:23px;
     font-family:'Courier New', Courier, monospace;
+    animation: 0.5s infinite ease-in-out;
 }
 
 .topic{
@@ -43,14 +44,22 @@ a {
     font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 }
 
-.box1{
+.day-box{
     background:radial-gradient(circle, white,rgb(247, 208, 161), rgb(255, 160, 160));
-    padding:10px;
+    padding:50px;
     border-radius:10px;
     display:flex;
     flex-direction: column;
-    max-width:70%;
+    max-width:60%;
+    line-height: 1.6;
+    font-family:'Helvetica Neue', sans-serif;
+    font-size:17px;
+    height:430px;
+    overflow-x: hidden;
+    overflow-y: auto;
+
 }
 .day-headings{
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+
 }
