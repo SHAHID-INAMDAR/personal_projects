@@ -50,7 +50,7 @@ a {
     border-radius:10px;
     display:flex;
     flex-direction: column;
-    max-width:60%;
+    max-width:65%;
     line-height: 1.6;
     font-family:'Helvetica Neue', sans-serif;
     font-size:17px;
@@ -59,7 +59,66 @@ a {
     overflow-y: auto;
 
 }
+
 .day-headings{
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
 
+}
+
+.priviyet{
+    display:flex;
+    flex-direction: column;
+    max-width:70%;
+    height: 800px;
+}
+
+h2.priviyet-heading {
+    color:#393b65;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+
+.priviyet-box{
+    display:flex;
+    justify-content: space-between;
+}
+
+.priviyet-main{
+    background-color:blue;
+    flex-grow:1;
+    padding:30px;
+    border-radius: 30px;
+    margin-right: 10px;
+    line-height:1.6;
+    background: linear-gradient(to top ,#0b2f61,#0a3f8f,#507faf,#7DA0CA,#C1E8FF);
+    height:550px;
+}
+.priviyet-headings{
+    font-size:30px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 900;
+    color:#121746;
+}
+
+.toc_priviyet{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background:linear-gradient(#CCD0CD,#9BA8AB,#4D96A6,#253745,#11212D,#06141B);
+    padding:30px;
+    border-radius:30px;
+    width: 300px;
+    height:550px;
+}
+#priviyet_toc_list li a{
+    color:rgb(9, 68, 65);
+    text-decoration: none;
+    font-weight: 900;
+    font-size:16px;
+    font-family:'Courier New', Courier, monospace;
+    animation: 0.5s infinite ease-in-out;
+    list-style-type: none;
+}
+#priviyet_toc_list {
+    list-style-type: none;
 }
