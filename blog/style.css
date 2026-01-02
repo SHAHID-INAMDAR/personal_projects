@@ -65,6 +65,17 @@ a {
 
 }
 
+.table-of-content{
+    position: fixed;
+    top: 200px;
+    right:100px;
+    background: linear-gradient(rgb(252, 177, 177) , rgb(118, 89, 252),rgb(133, 69, 252) , rgb(134, 30, 253),rgb(122, 48, 240),rgb(185, 50, 248),purple);
+    height:500px;
+    width:300px;
+    border-radius: 15px;
+    padding :20px;
+}
+
 .priviyet{
     display:flex;
     flex-direction: column;
